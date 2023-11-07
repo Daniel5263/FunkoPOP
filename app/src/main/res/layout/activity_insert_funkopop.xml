@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextID"
+        android:hint="POP Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editTextPopName"
+        android:hint="POP Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editTextPopNumber"
+        android:hint="POP Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Add UI elements for other FunkoPOP columns (POP Type, Fandom, On, Ultimate, Price) -->
+
+    <Button
+        android:id="@+id/buttonInsert"
+        android:text="Insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
